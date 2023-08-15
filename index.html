@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Recommendation</title>
+    <link rel="stylesheet" type="text/css" href="app.css">
+</head>
+<body>
+    <h1>Movie Recommendation</h1>
+    <div class="form-container">
+        <label for="mood">Select your mood:</label>
+        <select id="mood">
+            <option value="exciting">Exciting</option>
+            <option value="funny">Funny</option>
+            <option value="romantic">Romantic</option>
+        </select>
+        <label for="genre">Select a genre:</label>
+        <select id="genre">
+            <option value="action">Action</option>
+            <option value="comedy">Comedy</option>
+            <option value="drama">Drama</option>
+        </select>
+        <button id="recommend-button">What Movie to Watch Next</button>
+    </div>
+
+    <div id="recommendations-container">
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
